@@ -79,6 +79,7 @@ border-radius: 10px;
     width: 200px;
     border: #3882f6 solid 2px;
     border-radius: 10px;
+    margin-bottom: 5px
 }
 .column-container{
     max-width: 200px;
@@ -100,4 +101,17 @@ border-radius: 10px;
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+}
+
+footer{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    
+    margin: auto;
+    color: #e5e7eb;
 }
