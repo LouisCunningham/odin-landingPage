@@ -103,12 +103,37 @@ border-radius: 10px;
     color: #1f2937;
 }
 
+.cta{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    width: 75%;
+    height: 50%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #e5e7eb;
+}
+.banner button{
+    background-color: transparent;
+    color: #e5e7eb;
+    padding: 5px 20px;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+}
 footer{
     height: 100px;
     background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: capitalize;
 }
 footer p{
     
